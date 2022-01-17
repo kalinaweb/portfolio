@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link href="./css/datepicker.css" rel="stylesheet">
+  <link href="./css/style.bundle.css" rel="stylesheet"></head>
+  <body>
+    <div id="main">
+      <header>
+        <div class="wrap">
+          <div class="header__logo"><a href="index.html"><img src="img/logo.png"></a>
+          </div>
+          <div class="header__topMenu">
+            <nav>
+              <input class="burger toggleMenu" type="checkbox" name="toggle" id="menu">
+              <label class="burger toggleMenu" for="menu"><span class="material-icons burger__open">menu</span><span class="material-icons burger__close">close</span></label>
+              <ul>
+                <li><a href="*">О нас</a>
+                </li>
+                <li><a href="*">Услуги</a>
+                  <ul>
+                    <li><a href="*">Подбор</a>
+                    </li>
+                    <li><a href="*">Бронь</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="*">Вакансии</a>
+                </li>
+                <li><a href="*">Новости</a>
+                </li>
+                <li><a href="*">Соглашения</a>
+                  <ul>
+                    <li><a href="*">Подбор</a>
+                    </li>
+                    <li><a href="*">Бронь</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__btns">
+            <button class="btn  btn__violetborder m-r15">Войти
+            </button>
+            <button class="btn  btn__violetback">Зарегистрироваться
+            </button>
+          </div>
+        </div>
+      </header>
+      <div class="content index">
+        <div class="wrap">
+          <div class="finding">
+            <h1>Найдём номера под <br>ваши пожелания</h1>
+            <div class="finding__left inline width50">
+              <h3>Прибытие</h3>
+              <div class="input-arrow">
+                <input class=" js_arriveFinding" id="arrive" readonly value="ДД.ММ.ГГГГ">
+                <label for="arrive">&nbsp;</label>
+              </div>
+            </div>
+            <div class="finding__right inline width50">
+              <h3>Выезд</h3>
+              <div class="input-arrow">
+                <input class=" js_arriveDeparture" id="departure" readonly value="ДД.ММ.ГГГГ">
+                <label for="departure">&nbsp;</label>
+              </div>
+            </div>
+            <div class="height0">
+              <input class="js_dateFromDatepicker zero">
+            </div>
+            <div class="finding__guests">
+              <h3>Гости</h3>
+              <div class="select-count">
+                <div class="input-arrow">
+                  <input id="guests" readonly value="Сколько гостей">
+                  <label for="guests">&nbsp;</label>
+                </div>
+                <div class="select-count__container">
+                  <div class="select-count__item fadeIn a2">
+                    <h3>Взрослые</h3>
+                    <div class="select-count__count-area"><span class="select-count__control js_minus transparent">-</span><span class="select-count__number js_num">0</span><span class="select-count__control js_plus">+</span></div>
+                  </div>
+                  <div class="select-count__item fadeIn a2">
+                    <h3>Дети</h3>
+                    <div class="select-count__count-area"><span class="select-count__control js_minus transparent">-</span><span class="select-count__number js_num">0</span><span class="select-count__control js_plus">+</span></div>
+                  </div>
+                  <div class="select-count__item fadeIn a2">
+                    <h3>Младенцы</h3>
+                    <div class="select-count__count-area"><span class="select-count__control js_minus transparent">-</span><span class="select-count__number js_num">0</span><span class="select-count__control js_plus">+</span></div>
+                  </div>
+                  <div class="select-count__buttons fadeIn a8"><span class="js_clearSelectCount transparent">очистить</span>
+                    <div class="select-count__apply js_applySelectCount">применить</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn  btn__violetback arrow width100">подобрать номер
+            </button>
+          </div>
+        </div>
+        <div class="index__slogan">Лучшие номера для вашей работы, отдыха и просто вдохновения</div>
+      </div>
+      <footer>
+        <div class="wrap">
+          <div class="footer__logo"><a href="index.html"><img src="img/logo.png"></a><span>Бронирование номеров в лучшем отеле 2019 года по версии ассоциации&nbsp;&laquo;Отельные взгляды&raquo;</span>
+          </div>
+          <div class="footer__menu">
+            <h3>Навигация</h3>
+            <ul>
+                    <li><a href="*">О нас</a></li>
+                    <li><a href="*">Новости</a></li>
+                    <li><a href="*">Служба поддержки</a></li>
+                    <li><a href="*">Услуги</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h3>О нас</h3>
+            <ul>
+                    <li><a href="*">О сервисе</a></li>
+                    <li><a href="*">Наша команда</a></li>
+                    <li><a href="*">Вакансии</a></li>
+                    <li><a href="*">Инвесторы</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <h3 class="l-s03">Служба поддержки</h3>
+            <ul>
+                    <li><a href="*">Соглашения</a></li>
+                    <li><a href="*">Сообщества</a></li>
+                    <li><a href="*">Связь с нами</a></li>
+            </ul>
+          </div>
+          <div class="footer__subscribe">
+            <h3>Подписка</h3><span>Получайте специальные предложения и новости сервиса</span>
+            <form>
+              <input type="text" name="email" placeholder="Email">
+              <button class="material-icons">arrow_forward</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+<copyright>
+  <div class="wrap"><span>Copyright &copy; 2018 Toxin отель. Все права защищены.</span><a href="*"><i class="fa fa-twitter fa-1x"></i></a><a href="*"><i class="fa fa-facebook-square fa-1x"></i></a><a href="*"><i class="fa fa-instagram fa-1x"></i></a></div>
+</copyright>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/datepicker.js"></script>
+    <script>;$(function () {
+  let firstDay = '';
+  let myDatepicker = $('.js_dateFromDatepicker').datepicker({
+              navTitles: {
+                days: 'MM yyyy'
+              },
+              range: true,
+              showOtherMonths: false,
+              clearButton: true,
+              offset: -4,
+              nextHtml: '<span class="material-icons">arrow_forward</span>',
+              prevHtml: '<span class="material-icons">arrow_back</span>',
+              dateFormat: 'dd.mm.yyyy',
+              onSelect: function(date, cellType) {
+                      if(firstDay == '') {
+                        $('.js_arriveFinding').val(getDate(myDatepicker.selectedDates[0]));
+                        firstDay = myDatepicker.selectedDates[0];
+                      }
+                      else {
+                        if(getDate(myDatepicker.selectedDates[0]) == 'Invalid Date') $('.js_arriveFinding').val('ДД.ММ.ГГГГ');
+                        else $('.js_arriveFinding').val(getDate(myDatepicker.selectedDates[0]));
+
+                        if(getDate(myDatepicker.selectedDates[1]) == 'Invalid Date') $('.js_arriveDeparture').val('ДД.ММ.ГГГГ');
+                        else $('.js_arriveDeparture').val(getDate(myDatepicker.selectedDates[1]));
+                      }
+                  }
+            }).data('datepicker');
+
+  $("#arrive").click(function() {
+    myDatepicker.show();
+  });
+
+  $(".datepicker").click(function() {
+    $("#arrive").addClass('active');
+    $("#departure").addClass('active');
+  });
+
+  $(".js_applyDatePicker").click(function() {
+    myDatepicker.hide();
+  });
+
+var options = {
+  day: 'numeric',
+  month: 'numeric',
+  year: 'numeric'
+}
+
+function getDate(str) {
+  let date = new Date(str);
+  return date.toLocaleString('ru', options)
+}
+
+
+});
+
+    </script>
+  <script src="./js/bundle.js"></script></body>
+</html>

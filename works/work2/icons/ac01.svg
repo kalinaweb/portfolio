@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="50px" height="41px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2.483 2.05"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="999" font-variant="normal" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Webdings">
+		<font-face-src>
+			<font-face-name name="Webdings"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="`" horiz-adv-x="999" d="M859.888 376.951l-59.9944 0 0 107.152c0,18.4981 -3.49951,31.4956 -10.3326,38.8265 -6.83307,7.33579 -19.4938,11.0012 -37.9919,11.0012l-187.646 0 0 -66.9934 -89.9867 90.1575 89.9867 102.818 0 -65.9928 207.476 0c25.3263,0 46.4942,-8.49741 63.323,-25.3312 16.8338,-16.9948 25.1652,-38.3238 25.1652,-64.1576l0 -127.481zm68.9896 -97.9862l-65.9928 0 0 -174.814c0,-25.829 -8.33146,-47.1579 -25.1603,-63.9868 -16.8338,-16.8338 -37.9968,-25.1652 -63.8258,-25.1652l-239.968 0 0 59.9895 218.639 0c18.664,0 31.6615,3.49951 39.1584,10.3326 7.50174,6.83307 11.1672,19.6646 11.1672,38.6654l0 154.979 -67.9939 0 90.6553 89.9867 103.321 -89.9867zm-465.937 247.967l-217.975 0c-18.664,0 -31.9934,-3.33356 -39.4903,-10.1666 -7.66768,-6.83307 -11.4991,-19.6646 -11.4991,-38.4946l0 -100.319 68.9896 0 -100.988 -90.9872 -93.9889 90.9872 65.9928 0 0 120.15c0,25.6631 8.49741,46.992 25.6631,63.6598 16.9997,16.8289 38.3286,25.1603 63.9917,25.1603l239.304 0 0 -59.9895zm55.9921 -484.435l-89.9867 -93.491 0 65.9928 -206.31 0c-25.6631,0 -46.8261,8.49741 -63.6549,25.3312 -16.6678,16.9948 -24.9993,38.3286 -24.9993,63.9917l0 174.644 59.9944 0 0 -154.149c0,-18.664 3.49951,-31.4956 10.4985,-38.8265 6.83307,-7.33091 19.6646,-11.0012 37.9919,-11.0012l186.479 0 0 66.9934 89.9867 -99.4846z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Webdings";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#25AAE1}
+    .fnt0 {font-weight:normal;font-size:2.884px;font-family:'Webdings'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g transform="matrix(1.00003 0 0 1 -25.1968 -61.5562)">
+   <text x="25" y="63.459"  class="fil0 fnt0">`</text>
+  </g>
+ </g>
+</svg>
